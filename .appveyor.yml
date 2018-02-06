@@ -5,3 +5,7 @@ build: false
 
 test_script:
   - ps: . .\Tests\CodeExecution.tests.ps1
+  - ps: . .\Tests\Exfiltration.tests.ps1
+  - ps: . .\Tests\PowerSploit.tests.ps1
+  - ps: . .\Tests\Privesc.tests.ps1
+  - ps: . .\Tests\Recon.tests.ps1
