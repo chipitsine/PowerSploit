@@ -4,4 +4,4 @@ install:
 build: false
 
 test_script:
-  - ps: . \Tests\CodeExecution.tests.ps1
+  - ps: . .\Tests\CodeExecution.tests.ps1
