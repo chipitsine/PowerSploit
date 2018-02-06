@@ -9,3 +9,4 @@ test_script:
   - ps: . .\Tests\PowerSploit.tests.ps1
   - ps: . .\Tests\Privesc.tests.ps1
   - ps: . .\Tests\Recon.tests.ps1
+  - ps: . .\Tests\Pester.tests.ps1
